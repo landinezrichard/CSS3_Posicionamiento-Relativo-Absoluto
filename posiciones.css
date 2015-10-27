@@ -1,0 +1,33 @@
+img{
+	width:300px;
+}
+
+div {
+  border: 2px solid #CCC;
+  padding: 1em;
+  margin: 1em 0 1em 4em;
+  width: 1000px;
+}
+
+#relativo img.desplazada {
+  position: relative;
+  top: 10em;
+  left: 500px;
+}
+
+/*
+Para posicionar la segunda imagen respecto al div contenedor, 
+descomentar lo que sigue
+*/
+
+/*
+#absoluto{
+	position: relative;
+}
+*/
+
+#absoluto img.desplazada {
+  position: absolute;
+  top:  600px; 
+  left: 100px;
+}
